@@ -1,0 +1,8 @@
+.ruby-version
+*.box
+Gemfile.lock
+packer_cache
+output-bionic64-ptfe-vbox
+.DS_Store
+.kitchen/
+Makefile
