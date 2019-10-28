@@ -41,12 +41,12 @@ source ~/.bash_profile
 On Windows:
 Install accordingly to https://rubyinstaller.org/
 
-## Add you Vagrant Cloud
+## Add you Vagrant Cloud account to the code
  - If you don't have account in Vagrant Cloud create here: https://app.vagrantup.com/account/new
 
  - Register a box in Vagrant Cloud
 
- - Replace `<username>/<box>` in `.kitchen.yml` and `template.json` with your username a box name you have created.
+ - Replace `<username>/<box>` accordingly in `.kitchen.yml` and `template.json` with your username a box name you have created.
 
 ## How to run the code
 
@@ -73,14 +73,6 @@ rbenv local 2.5.1
 rbenv versions
 gem install bundler
 bundle install
-```
-
-  
-
-### Build
-
-```
-make
 ```
 
 ### Test
